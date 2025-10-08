@@ -173,7 +173,10 @@ export default function HeroSection() {
                     onError={(e) => {
                       // Fallback dacă imaginea nu există
                       e.currentTarget.style.display = 'none';
-                      e.currentTarget.nextElementSibling.style.display = 'flex';
+                      const nextElement = e.currentTarget.nextElementSibling as HTMLElement;
+                      if (nextElement) {
+                        nextElement.style.display = 'flex';
+                      }
                     }}
                   />
                   

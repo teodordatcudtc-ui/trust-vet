@@ -111,10 +111,10 @@ export default function PoliticaCookiePage() {
               Poți controla și șterge cookie-urile prin setările browser-ului tău:
             </p>
             <ul className="list-disc pl-6 text-gray-700 mb-6">
-              <li><strong>Chrome:</strong> Setări > Confidențialitate și securitate > Cookie-uri</li>
-              <li><strong>Firefox:</strong> Opțiuni > Confidențialitate și securitate > Cookie-uri</li>
-              <li><strong>Safari:</strong> Preferințe > Confidențialitate > Cookie-uri</li>
-              <li><strong>Edge:</strong> Setări > Cookie-uri și permisiuni site</li>
+              <li><strong>Chrome:</strong> Setări &gt; Confidențialitate și securitate &gt; Cookie-uri</li>
+              <li><strong>Firefox:</strong> Opțiuni &gt; Confidențialitate și securitate &gt; Cookie-uri</li>
+              <li><strong>Safari:</strong> Preferințe &gt; Confidențialitate &gt; Cookie-uri</li>
+              <li><strong>Edge:</strong> Setări &gt; Cookie-uri și permisiuni site</li>
             </ul>
 
             <h3 className="text-xl font-semibold text-dark mb-3">6.2 Prin banner-ul nostru</h3>
